@@ -7,12 +7,15 @@ public class aula{
         carrinho.add("Teclado");
         carrinho.add("Monitor");
         carrinho.add("Fone");
-        carrinho.remove("Mouse");
-        System.out.println("Primeiro produto: " + carrinho.get(0));
+        System.out.println("Primeiro produto " + carrinho.get(0));
         System.out.println("Segundo produto: " + carrinho.get(1));
         System.out.println("Terceiro produto: " + carrinho.get(2));
         System.out.println("Quarto produto: " + carrinho.get(3));
         System.out.println("Quinto produto: " + carrinho.get(4));
+        carrinho.remove("Mouse");
         System.out.println("Depois de remover: " + carrinho);
+        System.out.println("Você tem " + carrinho.size() + " itens no carrinho");
+     
     }
 }
+        
